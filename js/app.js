@@ -10,12 +10,12 @@ tl.fromTo(container, 1, { height: "0%" }, { height: "80%", ease: Power2.easeInOu
   .fromTo(
     container,
     1.2,
-    { width: "100%" },
-    { width: "80%", ease: Power2.easeInOut }
+    { width: "80%" },
+    { width: "50%", ease: Power2.easeInOut }
   )
   .fromTo(
     slider,
-    1.2,
+    1.5,
     { x: "-100%" },
     { x: "0%", ease: Power2.easeInOut },
     "-=1.2"
