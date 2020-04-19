@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 210vh;
     /* background: linear-gradient(to left, rgba(68, 69, 70, 0.829), rgba(6, 9, 10, 0.829)); */
     background: #c02a50; /*or maybe white color*/
     z-index: -1;
@@ -46,9 +46,10 @@ nav {
 
 section {
     display: flex;
-    height: 80vh;
+    width: auto;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
+    align-items: top;
 }
 
 
@@ -97,14 +98,31 @@ section {
 }
 
 .container2 {
-    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
     width: 100%;
     position: relative;
     padding: 3em;
+    /* background: #c02a50; */
+}
+.container2 div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 5em;
+    margin: 10px;
+    text-align: center;
+    line-height: auto;
+    font-size: 30px;
 }
 
 
-.container2::after {
+/* .container2::after {
+    display: flex;
+    flex-wrap: nowrap;
     content: "";
     background: #c02a50;
     width: 100%;
@@ -113,7 +131,8 @@ section {
     left: 0;
     /* opacity: 0.3; */
     top: 0;
-}
+} */
+
 
 p {
     display: block;
