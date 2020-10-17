@@ -148,10 +148,13 @@ section {
 }
 
 .container2 {
+    font-size: 20px;
+    margin-top: 40px;
     padding: 10px;
-    height: 40vh;
-    width: 50%;
+    height: 50vh;
+    width: 60%;
     position: absolute;
+    color: white;
     /* flex-wrap: wrap;
     height: auto;
     width: 100%;
