@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     /*nav(10vh)+section1(100vh)+sec2(160)+sec3+sec4(200vh)=470vh*/
-    height: 390vh;
+    height: 400vh;
     /* background: linear-gradient(to left, rgba(68, 69, 70, 0.829), rgba(6, 9, 10, 0.829)); */
     background: #c02a50; /*or maybe white color*/
     z-index: -1;
@@ -43,8 +43,37 @@ footer {
     background-color: darkred;
     color: white;
     height: 50vh;
-  }
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.footer-header {
+    font-size: 30px;
+    padding: 20px 50px;
+}
+.footer-info {
+    
+}
+.footer-left {
+    display: block;
+    float: left;
+    vertical-align: top;
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+}
+.footer-left li {
+    list-style: none;
+}
+.footer-right {
+    display: flex;
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+}
+.footer-right li {
+    list-style: none;
+}
+footer .container2 {
+    height: 10vh;
+}
 #logo {
     grid-column: 2/3;
     font-size: 24px;
@@ -155,6 +184,7 @@ section {
     width: 60%;
     position: absolute;
     color: white;
+    line-height: 1.5em;
     /* flex-wrap: wrap;
     height: auto;
     width: 100%;
@@ -162,6 +192,9 @@ section {
     padding: 0;
     flex: 1; */
     /* background-color: #50c02a; */
+}
+.container2 ul {
+    line-height: 2em;
 }
 .header2 {
     font-size: 45px;
